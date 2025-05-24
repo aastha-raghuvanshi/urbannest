@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+  <!-- Website Title Section with Background Image -->
+  <section class="hero-section">
+    <!-- <img src="bg3.jpg" alt="UrbanNest Background" class="hero-image" /> -->
+    <div class="hero-content">
+      <h1>UrbanNest 🏠</h1>
+      <p>Find your perfect roommate, the smart way</p>
+    </div>
+  </section>
+
+
+  <header class="navbar">
+    <a href="#home">Home</a>
+    <a href="#explore">Roommate Types</a>
+    <a href="#features">Features</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#chatbot">Chat</a>
+    <a href="#signup">Sign up now</a>
+  </header>
+
+
+  <section class="cta" id="home">
+    <h1>Find Your Perfect Roommate</h1>
+    <p>AI-powered smart matchmaking for a stress-free living experience.</p>
+    <button class="btn" onclick="document.getElementById('signup').scrollIntoView({ behavior: 'smooth' });">Explore
+      Us!</button>
+  </section>
+  <!-- How It Works Section -->
+  <section id="how-it-works" style="padding: 60px 20px; background: #ffffff; text-align: center;">
+    <h2>How It Works</h2>
+    <div class="how-works-container">
+      <div class="step-card">
+        <img src="https://img.icons8.com/fluency/48/000000/add-user-group-man-man.png" alt="Sign Up">
+        <h3>1. Sign Up</h3>
+        <p>Create an account in seconds using your email or Google login.</p>
+      </div>
+      <div class="step-card">
+        <img src="https://img.icons8.com/color/48/000000/settings--v1.png" alt="Preferences">
+        <h3>2. Set Preferences</h3>
+        <p>Let us know your ideal roommate traits, budget, location, and lifestyle.</p>
+      </div>
+      <div class="step-card">
+        <img src="https://img.icons8.com/office/48/000000/artificial-intelligence.png" alt="AI Matching">
+        <h3>3. Get AI Matches</h3>
+        <p>Our AI matches you with roommates who fit your vibe and preferences.</p>
+      </div>
+      <div class="step-card">
+        <img src="https://img.icons8.com/color/48/000000/chat--v1.png" alt="Chat">
+        <h3>4. Connect & Chat</h3>
+        <p>Message your matches and start conversations to get to know them better.</p>
+      </div>
+      <div class="step-card">
+        <img src="https://img.icons8.com/fluency/48/000000/home.png" alt="Move In">
+        <h3>5. Finalize & Move In</h3>
+        <p>Found the one? Seal the deal and enjoy living with a compatible roommate.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" style="padding: 60px 20px; background: #e6f7ff; text-align: center;">
+    <h2>What Our Users Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="User 1" />
+        <p>"UrbanNest helped me find my perfect roommate! The AI matchmaking made the whole process so much easier."
+        </p>
+        <span>- John Doe</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="User 2" />
+        <p>"I love how simple and efficient the sign-up process was. Highly recommended!"</p>
+        <span>- Jane Smith</span>
+      </div>
+    </div>
+  </section>
+  <!-- Zigzag Divider -->
+  <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#e5e7eb"
+      d="M0,0L60,20C120,40,240,80,360,80C480,80,600,40,720,20C840,0,960,0,1080,20C1200,40,1320,80,1380,100L1440,120L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+    </path>
+  </svg>
+
+  <!-- Roommate Types Section -->
+  <section id="explore" style="padding: 60px 20px; background: #f2f2f2; text-align: center;">
+    <h2>Explore Roommate Types</h2>
+    <div class="roommate-types">
+      <div class="roommate-card">
+        <img src="https://img.icons8.com/ios/50/000000/alarm-clock.png" alt="Early Riser" />
+        <h3>Early Riser</h3>
+        <p>Prefer waking up early to start the day with a fresh mindset? This roommate is likely to be up before
+          sunrise.</p>
+      </div>
+      <div class="roommate-card">
+        <img src="cloudnight.jpg" alt="Night Owl" />
+        <h3>Night Owl</h3>
+        <p>Prefer to stay up late and sleep in the mornings? A night owl will help keep the late-night energy flowing!
+        </p>
+      </div>
+      <div class="roommate-card">
+        <img src="extrovert.png" alt="Extrovert" />
+        <h3>Extrovert</h3>
+        <p>Loves meeting new people, going out, and socializing? This roommate loves a lively environment!</p>
+      </div>
+      <div class="roommate-card">
+        <img src="intovert.png" alt="Introvert" />
+        <h3>Introvert</h3>
+        <p>Enjoys solitude and personal space? An introvert will value a quiet and peaceful living environment.</p>
+      </div>
+      <div class="roommate-card">
+        <img src="clean.jpg" alt="Clean Freak" />
+        <h3>Clean Freak</h3>
+        <p>Someone who loves to keep their space spotless and organized. A clean freak will appreciate a tidy living
+          space.</p>
+      </div>
+      <div class="roommate-card">
+        <img src="https://img.icons8.com/ios/50/000000/crowd.png" alt="Social Butterfly" />
+        <h3>Social Butterfly</h3>
+        <p>Highly social and loves to have friends over. This roommate will be the life of the party.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roommate Search Section -->
+  <section id="roommate-search" style="padding: 60px 20px; background: #fff; text-align: center;">
+    <h2>Search for Roommates</h2>
+    <div class="search-form">
+      <input type="text" id="location" placeholder="Enter City or Area" />
+      <input type="number" id="budget" placeholder="Your Budget" />
+      <select id="preferences">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="any">Any</option>
+      </select>
+      <button class="btn" onclick="searchRoommate()">Search</button>
+    </div>
+    <div id="search-results" style="margin-top: 20px;"></div>
+  </section>
+  <!-- Slanted Divider -->
+  <svg viewBox="0 0 100 100" preserveAspectRatio="none" height="100" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <polygon fill="#ffffff" points="0,100 100,0 100,100" />
+  </svg>
+
+  <!-- Sign Up Section -->
+  <section id="signup" style="padding: 60px 20px; background: #f9f9f9;">
+    <h2 style="text-align: center;">Create Your UrbanNest Account</h2>
+    <div class="signup-form-container">
+      <form class="signup-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Create Password" required>
+
+        <label for="city">Preferred City</label>
+        <input type="text" id="city" name="city" placeholder="e.g., Bangalore, Mumbai" required>
+
+        <label for="personality">Roommate Personality Type</label>
+        <select id="personality" name="personality" required>
+          <option value="">Select</option>
+          <option>Early Riser</option>
+          <option>Night Owl</option>
+          <option>Extrovert</option>
+          <option>Introvert</option>
+          <option>Clean Freak</option>
+          <option>Social Butterfly</option>
+
+          <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </section>
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <h2>Why Choose UrbanNest?</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <img src="https://img.icons8.com/fluency/96/ai.png" alt="AI Matching">
+        <h3>AI-Powered Matching</h3>
+        <p>Smartly match with roommates based on habits, interests, and preferences.</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://img.icons8.com/fluency/96/visible.png" alt="Verified Profiles">
+        <h3>Verified Profiles</h3>
+        <p>All profiles are checked for authenticity, so you feel safe and secure.</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://img.icons8.com/fluency/96/location.png" alt="Location Finder">
+        <h3>Location-Based Search</h3>
+        <p>Find roommates in your desired city or neighborhood with ease.</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://img.icons8.com/fluency/96/chatbot.png" alt="Chatbot">
+        <h3>Smart Chatbot</h3>
+        <p>Need help? Our AI bot assists you 24/7 with your roommate search journey.</p>
+      </div>
+    </div>
+  </section>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.7017691741!2d72.71412664945404!3d19.082482210145333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1747335028779!5m2!1sen!2sin"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <!-- Add this where you want the map to show -->
+<div id="map" style="width:100%;height:450px;"></div>
+
+  <!-- Decorative SVG Divider -->
+  <svg class="section-divider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150">
+    <path fill="#f2f2f2" fill-opacity="1"
+      d="M0,64L80,90.7C160,117,320,171,480,170.7C640,171,800,117,960,101.3C1120,85,1280,107,1360,117.3L1440,128V0H1360C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0H0Z">
+    </path>
+  </svg>
+
+  <!-- AI Chatbot Section -->
+  <section id="chatbot" class="fade-in chatbot-section">
+    <h2>Talk to Our AI Roommate Assistant 🤖</h2>
+    <div class="chatbox-wrapper">
+      <div class="chat-window" id="chat-window">
+        <div class="bot-message">👋 Hi! I'm your AI roommate assistant. Ask me anything!</div>
+      </div>
+      <div class="input-row">
+        <input type="text" id="user-input" placeholder="Type your message..." />
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </section>
+
+
+  <footer style="text-align:center; padding: 40px 20px; background:#f2f2f2;">
+    <p>&copy; 2025 UrbanNest — Built with ❤️ for smart living</p>
+  </footer>
+
+  <button id="scrollTopBtn" title="Go to top">⬆️</button>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
